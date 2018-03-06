@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://use.typekit.net/kqi6crt.css");
+
+
+body {
+  background-color: #0B1729 !important;
+  color: #C2DAF2;
+  font-family: "proxima-nova";
+  letter-spacing: 0.1em;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: 'proxima-nova', sans-serif;
+  letter-spacing: .2em;
+  color: #6B747F;
+}
+
+.line {
+  border-bottom: 2px solid #6B747F;
+  width: 100%;
+}
+
+
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
+  background-color: #FF2CD2;
+
+}
+.nav-pills  a:link,.nav-pills  a:visited  {
+  color: #99A6BA;
+}
+
+.nav-pills  a:active, .nav-pills  a:hover{
+  color: #262931;
+}
+
+.chart {
+  width: 100%;
+  min-height: 450px;
+}
+#search-bar-ico {
+    position: relative;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+
+}
+
+input[type='number'], input[type='text'], input[type='password'], textarea  {
+  background-color: #102033 !important;
+  color: #7A8799;
+  border: none;
+  /*width: 100px;*/
+/*  border-bottom: solid #FFF 4px;*/
+  border-radius: 0px;
+  outline: none;
+}
+
+label {
+  color: #FFF;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(255, 255, 255, 0.6);
+  outline: 0 none;
+}
+
+a:link {
+  color: #FFF;
+}
